@@ -2,7 +2,7 @@
 
 A movie watchlist manager. Create named lists, search for movies, and bookmark them with a comment. Movie data (title, overview, poster, rating, genre, director, actors, runtime, Rotten Tomatoes score) is fetched live from the [OMDB API](https://www.omdbapi.com/) rather than stored as static fixtures.
 
-**Status:** work in progress.
+**Status:** Core features complete; ideas for next steps below.
 
 ## Tech Stack
 
