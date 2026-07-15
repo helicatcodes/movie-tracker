@@ -22,6 +22,9 @@ A movie watchlist manager. Create named lists, search for movies, and bookmark t
 - Remove a movie from a list
 - Delete a list (and its bookmarks)
 
+## Roadmap
+- The next milestone is an AI recommendation assistant: the user sets lasting preferences on their profile (genres, favourite films, dealbreakers) and adds an in-the-moment prompt — mood, available time, who they're watching with — and the assistant suggests what to watch and where to stream it, drawing on both.
+
 ## Models
 
 - **Movie** — title, overview, poster_url, rating, year, genre, director, actors, runtime, rotten_tomatoes; `has_many :bookmarks`, `has_many :lists, through: :bookmarks`
